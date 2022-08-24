@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script>
+        const video = document.getElementById("rem");
+        video.pause();
+        video.currentTime = 0;
+        video.load();
+    </script>
     <meta charset="UTF-8">
     <title>PythonCourse</title>
     <style>
@@ -78,7 +84,8 @@
             Audio reminder
         </h3>
         <video controls
-               poster="reminder.png"
+               id="rem"
+               poster="./thumbnails/reminder.png"
                height=100%
                width=85%>
             <source src="Reminder.mp4"
@@ -90,7 +97,7 @@
             Encrypting files
         </h3>
         <video controls
-               poster="encryption.png"
+               poster="./thumbnails/encryption.png"
                height=100%
                width=85%>
             <source src="Encryption.mp4"
@@ -102,7 +109,7 @@
             Taking screenshots
         </h3>
         <video controls
-               poster="snapshot.png"
+               poster="./thumbnails/screenshot.png"
                height=100%
                width=85%>
             <source src="Snapshot.mp4"
@@ -114,7 +121,7 @@
             Using keyboard
         </h3>
         <video controls
-               poster="keyboard.png"
+               poster="./thumbnails/keyboard.png"
                height=100%
                width=85%>
             <source src="Keyboard.mp4"
@@ -126,7 +133,7 @@
             Key-logging
         </h3>
         <video controls
-               poster="keylogger.png"
+               poster="./thumbnails/keylogger.png"
                height=100%
                width=85%>
             <source src="Keylogger.mp4"
@@ -138,7 +145,7 @@
             Download YouTube audio & video
         </h3>
         <video controls
-               poster="yt.png"
+               poster="./thumbnails/yt.png"
                height=100%
                width=85%>
             <source src="YtDownloader.mp4"
@@ -150,7 +157,7 @@
             Sort files by extensions
         </h3>
         <video controls
-               poster="extensions.png"
+               poster="./thumbnails/extensions.png"
                height=100%
                width=85%>
             <source src="Extensions.mp4"
